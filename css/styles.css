@@ -1,3 +1,43 @@
-*{
+* {
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'B612 Mono', monospace;
+    color: #f8f5f5;
+    background-color: rgba(107, 107, 107, 0.933);
+}
+
+header {
+    background-color: #090a05;
+}
+
+h1, h2, h3 {
+    text-decoration: underline;
+}
+
+a:link {
+    color: #eff31e;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #17f046;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #eff31e;
+}
+
+a:active {
+    color: #17f046;
+    text-decoration: none;
+}
+
+.jumbotron {
+    background-image: url(images/astronomybg.jpg);
+    background-size: cover;
+    background-position: center;
 }
