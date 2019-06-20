@@ -41,3 +41,8 @@ a:active {
     background-size: cover;
     background-position: center;
 }
+
+img {
+    width: 150px;
+    height: 150px;
+}
